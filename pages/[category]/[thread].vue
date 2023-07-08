@@ -7,3 +7,10 @@
         navigateTo(`/${categorySlug}/${threadSlug},1`)
     });
 </script>
+
+<template>
+    <div>
+        <h1>Thread: {{ category }}</h1>
+        <p>Page: {{ page }}</p>
+    </div>
+</template>
