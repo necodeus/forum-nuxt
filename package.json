@@ -1,5 +1,10 @@
 {
+  "name": "forum",
   "private": true,
+  "type": "module",
+  "engines": {
+    "node": ">=20.9.0"
+  },
   "scripts": {
     "build": "nuxt build",
     "dev": "nuxt dev",
@@ -8,14 +13,9 @@
     "postinstall": "nuxt prepare"
   },
   "devDependencies": {
-    "@nuxtjs/tailwindcss": "^6.1.1",
-    "nuxt": "3.0.0-rc.12"
-  },
-  "dependencies": {
-    "@nuxtjs/google-fonts": "^3.0.0-0",
-    "@pinia/nuxt": "^0.4.3",
+    "@nuxtjs/google-fonts": "^3.1.0",
+    "@nuxtjs/tailwindcss": "^6.10.0",
     "lodash": "^4.17.21",
-    "polish-plurals": "^1.1.0",
-    "sass": "^1.55.0"
+    "nuxt": "^3.8.2"
   }
 }

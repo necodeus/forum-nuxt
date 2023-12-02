@@ -14,7 +14,7 @@
 					<div>{{ replies }}</div>
 				</div>
 			</div>
-			<!-- <div class="flex">
+			<div class="flex">
 				<div
 					class="flex items-center"
 					style="padding: 18px 12px; min-width: 220px"
@@ -30,22 +30,7 @@
 						<div style="font-size: 12px">3 minuty temu</div>
 					</div>
 				</div>
-				<div
-					class="flex items-center"
-					style="padding: 18px 12px; min-width: 220px"
-				>
-					<img
-						width="35px"
-						height="35px"
-						style="border-radius: 50%; margin-right: 10px"
-						src="/images/avatar.png"
-					/>
-					<div>
-						<div style="font-size: 14px">adsdasasd</div>
-						<div style="font-size: 12px">3 minuty temu</div>
-					</div>
-				</div>
-			</div> -->
+			</div>
 		</div>
 	</div>
 </template>

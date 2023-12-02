@@ -2,7 +2,7 @@
     const { data: categories } = await useAsyncData('categories', () => {
 		return [
 			{
-				id: 1, link: '/nasze-projekty,1', name: 'Gry technicznie',
+				id: 1, link: '/games,1', name: 'Gry',
 				children: [
 					{ id: 1, link: '/silkroad,1',       name: 'Silkroad Online', description: 'a', },
 					{ id: 2, link: '/counter-strike,1', name: 'Counter-Strike',  description: 'b', },

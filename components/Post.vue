@@ -19,7 +19,7 @@
 				/>
 			</div>
 			<div style="font-size: 13px; color: rgb(182, 182, 182)">
-				<!-- {{ $moment().diff(post.author.birthdate, "years") }} -->
+				30 lat
 			</div>
 			<div
 				style="margin-bottom: 10px; font-size: 13px; color: rgb(182, 182, 182)"
@@ -39,7 +39,7 @@
 					<tbody>
 						<tr>
 							<td class="pr-4">
-								<!-- {{ $moment(post.created_at).locale("pl-PL").fromNow() }} -->
+								16 minut temu
 							</td>
 							<td v-if="post.updated_at" class="pr-4">{{ post.updated_at }}</td>
 						</tr>

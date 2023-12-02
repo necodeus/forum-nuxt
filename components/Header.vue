@@ -2,17 +2,6 @@
 	<header class="header">
 		<nav class="header__navigation">
 			<div class="container mx-auto flex items-center">
-				<!-- <div
-					class="flex list-child"
-					style="margin: 0px 24px"
-					@mouseover="delayedActivation($event)"
-					@mouseleave="delayedDeactivation($event)"
-				>
-					<RouterLink to="/" class="flex align-center" style="color: rgb(59,254,191);">
-						<Logo height="35px" />
-					</RouterLink>
-				</div> -->
-
 				<div class="flex items-center" style="margin: 0 24px">
 					<Search />
 				</div>
@@ -58,7 +47,6 @@
 							<a href="#" class="list-child__link">
 								<span>Więcej</span><span>Więcej</span>
 							</a>
-							<!-- <RouterLink class="list-child__link" to="/information">Informacje</RouterLink> -->
 							<ul class="sublist">
 								<li class="sublist-child">
 									<RouterLink class="sublist-child__link" to="/information/privacy-policy,1">Polityka prywatności</RouterLink>
@@ -69,18 +57,6 @@
 							</ul>
 						</li>
 
-					</ul>
-
-					<ul class="flex list">
-						<li
-							class="list-child"
-							@mouseover="delayedActivation($event)"
-							@mouseleave="delayedDeactivation($event)"
-						>
-							<RouterLink class="list-child__link" to="#">
-								<span>Logowanie</span><span>Logowanie</span>
-							</RouterLink>
-						</li>
 					</ul>
 				</div>
 			</div>
@@ -120,13 +96,6 @@ export default {
 </script>
 
 <style lang="scss">
-.header__logo {
-	width: 333.333px;
-	height: 100px;
-	background-image: url("/images/logo.png");
-	background-size: cover;
-}
-
 .header__user-link {
 	color: white;
 	text-decoration: none;
