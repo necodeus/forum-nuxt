@@ -21,65 +21,58 @@ export default {
 </script>
 
 <style>
-$search_icon_width: 40px;
-$search_height: 40px;
-
 .search {
-	$search: &;
-
-	padding-right: $search_icon_width;
+	padding-right: 40px;
 	border-radius: 4px;
 	overflow: hidden;
 	font-size: 14px;
-
 	width: 240px;
-
 	position: relative;
+}
 
-	&__input {
-		border: 0;
-		outline: none;
-		height: $search_height;
-		line-height: $search_height;
-		color: var(--search-text-color);
-		width: 200px;
-		padding-left: 15px;
-		padding-right: 15px;
-		position: relative;
-		transition: width 0.3s ease-in-out, padding 0.6s ease-in-out;
-		background-color: var(--search-background);
-	}
+.search__input {
+	border: 0;
+	outline: none;
+	height: 40px;
+	line-height: 40px;
+	color: white;
+	width: 200px;
+	padding-left: 15px;
+	padding-right: 15px;
+	position: relative;
+	transition: width 0.3s ease-in-out, padding 0.6s ease-in-out;
+	background-color: #0f1015;
+}
 
-	&::before {
-		content: "";
-		position: absolute;
-		top: 0;
-		bottom: 0;
-		left: 0;
-		right: 40px;
-		opacity: 0.05;
-		display: block;
-	}
+.search::before {
+	content: "";
+	position: absolute;
+	top: 0;
+	bottom: 0;
+	left: 0;
+	right: 40px;
+	opacity: 0.05;
+	display: block;
+}
 
-	&__icon {
-		width: $search_icon_width;
-		height: $search_height;
+.search__icon {
+	width: 40px;
+	height: 40px;
 
-		display: flex;
-		justify-content: center;
-		align-items: center;
+	display: flex;
+	justify-content: center;
+	align-items: center;
 
-		position: absolute;
-		top: 0;
-		right: 0;
+	position: absolute;
+	top: 0;
+	right: 0;
 
-		color: var(--search-button-text-color);
-		background-color: var(--search-button-background);
+	color: white;
+	background-color: #14151c;
+}
 
-		path {
-			transform: scale(0.4);
-			transform-origin: center;
-		}
-	}
+.search__icon path {
+	transform: scale(0.4);
+	transform-origin: center;
 }
 </style>

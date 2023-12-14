@@ -27,34 +27,39 @@ export default {
 
 <style>
 .breadcrumbs {
-	background-color: var(--breadcrumbs-background);
-	.breadcrumbs-items {
-		list-style: none;
-		font-size: 13px;
-		font-weight: 400;
-		padding-left: 25px;
-		padding-right: 25px;
-		.breadcrumbs-item {
-			line-height: 40px;
-			display: inline-block;
-			a {
-				display: inline-block;
-				text-decoration: none;
-				color: var(--breadcrumbs-text-color);
-				opacity: 0.7;
-				transition: opacity 0.15s ease-in-out;
-				&:hover,
-				&:focus {
-					opacity: 1;
-				}
-			}
-			&:not(:first-child)::before {
-				color: var(--breadcrumbs-text-color);
-				content: ">";
-				padding-left: 5px;
-				padding-right: 5px;
-			}
-		}
-	}
+	background-color: rgb(32, 10, 91);
+}
+
+.breadcrumbs .breadcrumbs-items {
+	list-style: none;
+	font-size: 13px;
+	font-weight: 400;
+	padding-left: 25px;
+	padding-right: 25px;
+}
+
+.breadcrumbs .breadcrumbs-items .breadcrumbs-item {
+	line-height: 40px;
+	display: inline-block;
+}
+
+.breadcrumbs .breadcrumbs-items .breadcrumbs-item a {
+	display: inline-block;
+	text-decoration: none;
+	color: rgb(240, 240, 240);
+	opacity: 0.7;
+	transition: opacity 0.15s ease-in-out;
+}
+
+.breadcrumbs .breadcrumbs-items .breadcrumbs-item a:hover,
+.breadcrumbs .breadcrumbs-items .breadcrumbs-item a:focus {
+	opacity: 1;
+}
+
+.breadcrumbs .breadcrumbs-items .breadcrumbs-item:not(:first-child)::before {
+	color: rgb(240, 240, 240);
+	content: ">";
+	padding-left: 5px;
+	padding-right: 5px;
 }
 </style>

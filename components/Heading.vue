@@ -27,24 +27,27 @@ export default {
 	border-radius: 4px;
 	margin-top: 20px;
 	margin-bottom: 20px;
-	.heading {
-		font-size: 24px;
-		font-weight: 500;
-		line-height: 1.2;
-		letter-spacing: -0.02em;
-		margin: 0;
-	}
-	hr {
-		margin: 15px 0;
-		height: 0;
-		padding: 0;
-		border: 1px solid rgba(230, 230, 230, 0.08);
-		border-width: 1px 0 0 0;
-	}
-	.ch__description {
-		margin-top: 7px;
-		font-size: 14px;
-		line-height: 1.6;
-	}
+}
+
+.category-heading .heading {
+	font-size: 24px;
+	font-weight: 500;
+	line-height: 1.2;
+	letter-spacing: -0.02em;
+	margin: 0;
+}
+
+.category-heading hr {
+	margin: 15px 0;
+	height: 0;
+	padding: 0;
+	border: 1px solid rgba(230, 230, 230, 0.08);
+	border-width: 1px 0 0 0;
+}
+
+.category-heading .ch__description {
+	margin-top: 7px;
+	font-size: 14px;
+	line-height: 1.6;
 }
 </style>

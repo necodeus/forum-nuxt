@@ -40,7 +40,7 @@
 											loading="lazy"
 											width="40px"
 											height="40px"
-											src="/"
+											src=""
 										/>
 									</div>
 								</div>

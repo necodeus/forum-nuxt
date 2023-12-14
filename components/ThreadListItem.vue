@@ -23,7 +23,7 @@
 						width="35px"
 						height="35px"
 						style="border-radius: 50%; margin-right: 10px"
-						src="/images/avatar.png"
+						src=""
 					/>
 					<div>
 						<div style="font-size: 14px">adsdasasd</div>
@@ -59,13 +59,15 @@ export default {
 	background-color: #121318;
 	padding: 0 22px;
 	border-bottom: 1px solid rgba(128, 128, 128, 0.1);
-	&:last-child {
-		border-bottom: none;
-	}
-	&__link {
-		color: white;
-		text-decoration: none;
-		display: inline-block;
-	}
+}
+
+.forum-thread-list-item:last-child {
+	border-bottom: none;
+}
+
+.forum-thread-list-item__link {
+	color: white;
+	text-decoration: none;
+	display: inline-block;
 }
 </style>

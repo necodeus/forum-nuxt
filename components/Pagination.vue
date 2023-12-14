@@ -98,39 +98,40 @@ export default {
     font-size: 12px;
     font-weight: 600;
     line-height: 26px;
-    .pagination-button {
-        border-radius: 4px;
-        overflow: hidden;
-        color: white;
-        text-decoration: none;
+}
 
-        min-width: 35px;
-        text-align: center;
+.pagination .pagination-button {
+    border-radius: 4px;
+    overflow: hidden;
+    color: white;
+    text-decoration: none;
+    min-width: 35px;
+    text-align: center;
+}
 
-        &--active {
-        background-color: rgb(62, 65, 72);
-        }
-        &:before {
-        content: "";
-        background-color: white;
-        opacity: 0;
-        position: absolute;
-        top: 0;
-        bottom: 0;
-        left: 0;
-        right: 0;
-        cursor: pointer;
-        }
-        &:hover {
-        &:before {
-            opacity: 0.06;
-        }
-        }
-    }
-    > div,
-    > a {
-        padding: 0 10px;
-        margin-right: 2px;
-    }
+.pagination .pagination-button:before {
+    content: "";
+    background-color: white;
+    opacity: 0;
+    position: absolute;
+    top: 0;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    cursor: pointer;
+}
+
+.pagination .pagination-button:hover:before {
+    opacity: 0.06;
+}
+
+.pagination .pagination-button--active {
+    background-color: rgb(62, 65, 72);
+}
+
+.pagination > div,
+.pagination > a {
+    padding: 0 10px;
+    margin-right: 2px;
 }
 </style>

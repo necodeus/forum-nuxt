@@ -41,7 +41,7 @@
 									<div class="flex">
 										<div style="display: flex">
 											<div class="flex items-center category__image-container">
-												<img loading="lazy" width="40px" height="40px" src="/" />
+												<img loading="lazy" width="40px" height="40px" src="" />
 											</div>
 										</div>
 										<div>
