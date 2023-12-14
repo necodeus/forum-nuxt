@@ -5,18 +5,19 @@
 ```bash
 nvm install v20.9.0
 nvm use v20.9.0
-npm install
+npm install -g yarn
+yarn
 ```
 
 ## Development
 
 ```bash
-npm run dev
+yarn dev
 ```
 
 ## Build for production
 
 ```bash
-npm run build
-npm start
+yarn build
+yarn preview
 ```
