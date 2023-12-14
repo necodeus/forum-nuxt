@@ -1,5 +1,7 @@
 # Forum
 
+;)
+
 ## Installation
 
 ```bash
