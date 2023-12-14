@@ -4,7 +4,7 @@
 	</div>
 </template>
 
-<style lang="scss">
+<style>
 .forum-threads {
 	border-radius: 4px;
 	background-color: #1c1d25;

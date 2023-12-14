@@ -43,7 +43,7 @@ export default {
 };
 </script>
 
-<style lang="scss">
+<style>
 .forum {
 	background-color: #0d0e12;
 	border-radius: 4px;

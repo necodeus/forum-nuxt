@@ -22,7 +22,7 @@ export default {
 };
 </script>
 
-<style lang="scss">
+<style>
 .layout--forum {
 	background-color: hsl(230, 17%, 7%);
 	color: white;

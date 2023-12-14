@@ -25,7 +25,7 @@ export default {
 }
 </script>
 
-<style lang="scss">
+<style>
 .breadcrumbs {
 	background-color: var(--breadcrumbs-background);
 	.breadcrumbs-items {

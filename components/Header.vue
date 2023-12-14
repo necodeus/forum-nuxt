@@ -95,7 +95,7 @@ export default {
 };
 </script>
 
-<style lang="scss">
+<style">
 .header__user-link {
 	color: white;
 	text-decoration: none;

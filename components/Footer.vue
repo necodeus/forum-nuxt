@@ -20,7 +20,7 @@
 	</footer>
 </template>
 
-<style lang="scss">
+<style>
 .footer {
 	color: var(--footer-text-color);
 	border-top: 1px solid var(--footer-border-top-color);

@@ -54,7 +54,7 @@ export default {
 };
 </script>
 
-<style lang="scss">
+<style>
 .forum-thread-list-item {
 	background-color: #121318;
 	padding: 0 22px;

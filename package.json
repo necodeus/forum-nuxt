@@ -1,10 +1,7 @@
 {
-  "name": "forum",
+  "name": "nuxt-app",
   "private": true,
   "type": "module",
-  "engines": {
-    "node": ">=20.9.0"
-  },
   "scripts": {
     "build": "nuxt build",
     "dev": "nuxt dev",
@@ -13,9 +10,7 @@
     "postinstall": "nuxt prepare"
   },
   "devDependencies": {
-    "@nuxtjs/google-fonts": "^3.1.0",
-    "@nuxtjs/tailwindcss": "^6.10.0",
-    "lodash": "^4.17.21",
+    "@nuxtjs/tailwindcss": "^6.10.1",
     "nuxt": "^3.8.2"
   }
 }

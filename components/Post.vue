@@ -71,7 +71,7 @@ export default {
 };
 </script>
 
-<style lang="scss">
+<style>
 .post {
 	&__content {
 		font-size: 14px;
@@ -95,7 +95,7 @@ export default {
 }
 </style>
 
-<style lang="scss">
+<style>
 .separator {
 	margin: 15px 0;
 	width: 100%;

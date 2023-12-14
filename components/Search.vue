@@ -20,7 +20,7 @@ export default {
 };
 </script>
 
-<style lang="scss">
+<style>
 $search_icon_width: 40px;
 $search_height: 40px;
 

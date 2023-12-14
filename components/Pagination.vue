@@ -91,7 +91,7 @@ export default {
 };
 </script>
 
-<style lang="scss">
+<style>
 .pagination {
     height: 50px;
     padding: 12px;

@@ -20,7 +20,7 @@ export default {
 };
 </script>
 
-<style lang="scss">
+<style>
 .category-heading {
 	padding: 26px 34px;
 	background-color: #1c1d25;
