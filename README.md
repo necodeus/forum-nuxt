@@ -1,8 +1,15 @@
-# GH
+# Forum
+
+[![Release](https://github.com/necodeus/forum-nuxt/actions/workflows/release.yml/badge.svg?branch=production)](https://github.com/necodeus/forum-nuxt/actions/workflows/release.yml)
 
 ## Description
 
 ...
+
+## Requirements
+
+-  [api-php](https://github.com/necodeus/api-php)
+-  [acp-nuxt](https://github.com/necodeus/acp-nuxt)
 
 ## Installation
 
@@ -11,19 +18,9 @@ nvm install v20.9.0
 nvm use v20.9.0
 npm install -g yarn
 yarn
-```
-
-## Development
-
-```bash
 yarn dev
 ```
 
-## Build for production
+## Changelog
 
-```bash
-yarn build
-yarn preview
-```
-
-..
+Please see [CHANGELOG](CHANGELOG.md) for more information on what has changed recently.
